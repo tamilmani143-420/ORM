@@ -18,7 +18,8 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 # PROGRAM
-'''admin.py
+```py
+admin.py
 
 from django.contrib import admin
 from .models import Car
@@ -42,7 +43,9 @@ class Car(models.Model):
     price = models.FloatField()
 
     def str(self):
-        return f"{self.manufacturer} {self.model_name} ({self.year})"'''
+        return f"{self.manufacturer} {self.model_name} ({self.year})"
+```
+
 # OUTPUT
 
 ![alt text](<Screenshot 2025-09-22 093130.png>)
